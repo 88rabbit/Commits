@@ -2,4 +2,3 @@ language: java
 jdk:
   - oraclejdk8
   - oraclejdk7
-script: ./test1.sh $TEST_STUITE
