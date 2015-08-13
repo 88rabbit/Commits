@@ -1,5 +1,5 @@
 language: java
-script: 'test1.sh'
 jdk:
   - oraclejdk8
   - oraclejdk7
+mvn test
