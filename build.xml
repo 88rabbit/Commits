@@ -21,6 +21,7 @@
     <javac srcdir="${main.src.dir}" destdir="${main.build.dir}" includeantruntime="false">
       <classpath refid="classpath.base"/>
     </javac>
+   <echo message="Compile done" />
   </target>
 
   <target name="build" depends="compile">
@@ -42,6 +43,7 @@
         <formatter type="brief" usefile="false" />
         <batchtest>
             <fileset dir="${test.src.dir}" includes="**/*Test*.java" />
+            <test name="TestCalculator">
         </batchtest>
     </junit>
   </target>
