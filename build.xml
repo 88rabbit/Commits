@@ -43,7 +43,6 @@
         <formatter type="brief" usefile="false" />
         <batchtest>
             <fileset dir="${test.src.dir}" includes="**/*Test*.java" />
-            <test name="TestCalculator" />
         </batchtest>
     </junit>
   </target>
