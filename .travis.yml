@@ -4,5 +4,5 @@ jdk:
    - openjdk6
    - oraclejdk8
    - oraclejdk7
-script: ant TestCalculator
+script: ant test
 
