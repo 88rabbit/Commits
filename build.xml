@@ -44,8 +44,8 @@
         <batchtest>
             <fileset dir="${test.src.dir}" includes="**/*Test*.java" />
         </batchtest>
-        <echo message="run done" />
     </junit>
+    <echo message="run done" />
   </target>
    
   <!-- delete all class files -->
