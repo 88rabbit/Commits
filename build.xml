@@ -44,6 +44,7 @@
         <batchtest>
             <fileset dir="${test.src.dir}" includes="**/*Test*.java" />
         </batchtest>
+        <echo message="run done" />
     </junit>
   </target>
    
