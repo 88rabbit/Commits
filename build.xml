@@ -61,22 +61,22 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
-    <target name="CaculatorTest">
+   <!--  <target name="CaculatorTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="andycpp.CaculatorTest" todir="${junit.output.dir}"/>
             <classpath refid="Calculator.classpath"/>
         </junit>
-    </target>
-    <!-- <target name="TestCalculator">
+    </target> -->
+    <target name="TestCalculator">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="Test.TestCalculator" todir="${junit.output.dir}"/>
             <classpath refid="Calculator.classpath"/>
         </junit>
-    </target> -->
+    </target>
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
