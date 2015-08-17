@@ -1,10 +1,8 @@
-package Test;
+package andycpp;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
-import andycpp.Calculator;
 
 public class TestCalculator {
 

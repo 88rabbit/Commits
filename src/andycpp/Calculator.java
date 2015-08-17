@@ -8,10 +8,10 @@ public class Calculator
 		return x+y;
 	}
 	
-	public int substract(int x, int y) 
-	{
-		return x-y;
-	}
+	// public int substract(int x, int y) 
+	// {
+	// 	return x-y;
+	// }
 	
 	
 	// public int multiply(int x, int y)
@@ -34,17 +34,17 @@ public class Calculator
 	// 	return true;
 	// }
 	
-	
-	// public void claer()
-	// {
-	// 	result = 0;
-	// }
-	
-	// public int getResult()
-	// {
-	// 	return result;
-	// }
-	
+//	
+//	public void claer()
+//	{
+//		result = 0;
+//	}
+//	
+//	public int getResult()
+//	{
+//		return result;
+//	}
+//	
 	
 	
 }
