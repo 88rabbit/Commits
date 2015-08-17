@@ -69,6 +69,22 @@
             <classpath refid="Calculator.classpath"/>
         </junit>
     </target>
+    <target name="CalculatorTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="andycpp.CalculatorTest" todir="${junit.output.dir}"/>
+            <classpath refid="Calculator.classpath"/>
+        </junit>
+    </target>
+    <target name="TestCalculator">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="Test.TestCalculator" todir="${junit.output.dir}"/>
+            <classpath refid="Calculator.classpath"/>
+        </junit>
+    </target>
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
