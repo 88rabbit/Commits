@@ -14,7 +14,7 @@ public class TestCalculator {
 		Calculator cal = new Calculator();
 		int result = cal.add(1, 2);
 		
-		assertTrue(result==3);
+		assertTrue(result==1);
 		
 	}
 

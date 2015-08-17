@@ -17,7 +17,7 @@ public class TestCalculator2 {
 	public void test() {
 		Calculator cal = new Calculator();
 		int result = cal.substract(2, 1);
-		assertTrue(result==2);
+		assertTrue(result==1);
 	}
 
 }
