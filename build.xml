@@ -41,12 +41,12 @@
         <classpath>
           <path refid="classpath.test" />
           <pathelement location="${test.build.dir}"/>
-          <!-- <fileset dir="${test.src.dir}" /> -->
+          <fileset dir="${test.src.dir}" />
         </classpath>
         <formatter type="brief" usefile="false" />
-        <batchtest>
+        <!-- <batchtest>
             <fileset dir="${test.src.dir}" />
-        </batchtest>
+        </batchtest> -->
         <test name="Test.TestCalculator" />
         <test name="Test.TestCalculator2" />
 
