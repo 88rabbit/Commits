@@ -69,59 +69,6 @@
             <classpath refid="Calculator.classpath"/>
         </junit>
     </target>
-    <target name="CalculatorTest">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="andycpp.CalculatorTest" todir="${junit.output.dir}"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
-    <target name="MessageUtilTest1">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="andycpp.MessageUtilTest1" todir="${junit.output.dir}"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
-    <target name="MessageUtilTest1.suite">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="andycpp.MessageUtilTest1" todir="${junit.output.dir}"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
-    <target name="MessageUtilTest2">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="andycpp.MessageUtilTest2" todir="${junit.output.dir}"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
-    <target name="TestCalculator">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="Test.TestCalculator" todir="${junit.output.dir}"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
-    <target name="TestRunner">
-        <java classname="andycpp.TestRunner" failonerror="true" fork="yes">
-            <classpath refid="Calculator.classpath"/>
-        </java>
-    </target>
-    <target name="TestSuite">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="andycpp.TestSuite" todir="${junit.output.dir}"/>
-            <classpath refid="Calculator.classpath"/>
-        </junit>
-    </target>
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
