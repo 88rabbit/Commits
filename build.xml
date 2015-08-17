@@ -49,7 +49,6 @@
         </batchtest> -->
         <test name="Test.TestCalculator" />
         <test name="Test.TestCalculator2" />
-
     </junit>
     <echo message="run done" />
   </target>
