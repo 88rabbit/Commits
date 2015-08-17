@@ -8,42 +8,42 @@ public class Calculator
 		return x+y;
 	}
 	
-	public int substract(int x, int y) 
-	{
-		return x-y;
-	}
+	// public int substract(int x, int y) 
+	// {
+	// 	return x-y;
+	// }
 	
 	
-	public int multiply(int x, int y)
-	{
-		return x*y;
-	}
+	// public int multiply(int x, int y)
+	// {
+	// 	return x*y;
+	// }
 	
-	public int divide(int x, int y)
-	{
-		return x/y;
-	}
+	// public int divide(int x, int y)
+	// {
+	// 	return x/y;
+	// }
 	
-	public int square(int n)
-	{
-		return n*n;
-	}
+	// public int square(int n)
+	// {
+	// 	return n*n;
+	// }
 	
-	public boolean testBoolean()
-	{
-		return true;
-	}
+	// public boolean testBoolean()
+	// {
+	// 	return true;
+	// }
 	
 	
-	public void claer()
-	{
-		result = 0;
-	}
+	// public void claer()
+	// {
+	// 	result = 0;
+	// }
 	
-	public int getResult()
-	{
-		return result;
-	}
+	// public int getResult()
+	// {
+	// 	return result;
+	// }
 	
 	
 	
