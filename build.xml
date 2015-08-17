@@ -47,7 +47,7 @@
         <!-- <batchtest>
             <fileset dir="${test.src.dir}" />
         </batchtest> -->
-        <!-- <test name="Test.TestCalculator" /> -->
+        <test name="Test.TestCalculator" />
         <test name="Test.TestCalculator2" />
     </junit>
     <echo message="run done" />
