@@ -44,7 +44,7 @@
         </classpath>
         <formatter type="brief" usefile="false" />
         <batchtest>
-            <fileset dir="${test.src.dir}" />
+            <fileset dir="${test.build.dir}" />
         </batchtest>
         <test name="TestCalculator" />
     </junit>
