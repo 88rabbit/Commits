@@ -3,7 +3,7 @@
   <groupId>1</groupId>
   <artifactId>src.andycpp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>calculator</name>
+  <name>Calculator</name>
  
   <dependencies>
     <dependency>
