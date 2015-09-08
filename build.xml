@@ -30,6 +30,7 @@
         <copy includeemptydirs="false" todir="bin">
             <fileset dir="src">
                 <exclude name="**/*.launch"/>
+                <exclude name="**/*.xtend"/>
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
@@ -105,7 +106,7 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="Test.TestCalculator" todir="${junit.output.dir}"/>
+            <test name="andycpp.TestCalculator" todir="${junit.output.dir}"/>
             <classpath refid="Calculator.classpath"/>
         </junit>
     </target>
