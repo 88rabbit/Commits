@@ -14,12 +14,4 @@
     </dependency>
   </dependencies>
 
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-  </build>
-
-  <groupId>1</groupId>
-  <artifactId>1</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>calculator</name>
 </project>
