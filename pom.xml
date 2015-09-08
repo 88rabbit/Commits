@@ -10,12 +10,12 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
-      <scope>test</scope>
+      <scope>test/Test</scope>
     </dependency>
   </dependencies>
 
   <build>
-    <sourceDirectory>src</sourceDirectory>
+    <sourceDirectory>src/andyapp</sourceDirectory>
   </build>
 
 </project>
