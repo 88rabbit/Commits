@@ -1,6 +1,0 @@
-if Travis Ci could not detect Maven or Gradle files, Travis CI java builder will use Ant to build it.
-By defaut, it will use:
-
-ant test
-
-to run your tests, which means in .travis.yml file, adding "script: ant test" or without this specification, travis CI will always run the test by executing: ant test
